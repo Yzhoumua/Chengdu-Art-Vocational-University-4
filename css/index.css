@@ -1,0 +1,496 @@
+.box{
+    width: 1200px;
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "微软雅黑";
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.lf{
+    float: left;
+}
+.rg{
+    float: right;
+}
+.clearFix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.mar{
+    margin: 0 auto;
+}
+.position{
+    position: relative;
+}
+
+.top .topbox{
+    height: 70px;
+    padding: 10px 0;
+}
+.top .topbox .lf a{
+    display: block;
+    height: 70px
+}
+.top .topbox .rg li{
+    display: inline-block;
+    font-size: 12px;
+    line-height: 70px;
+}
+.top .topbox .rg li a{
+    color: red;
+}
+.top .topbox .rg li a i{
+    display: inline-block;
+    width: 20px;
+    height:20px;
+    vertical-align: -5px;
+    margin: 0 5px 0 10px;
+}
+.top .topbox .rg li:nth-child(1) a i{
+    background-image: url(../images/sy.png);
+    background-size: 100% 100%;
+}
+.top .topbox .rg li:nth-child(2) a i{
+    background-image: url(../images/jx.png);
+    background-size: 100% 100%;
+}
+.top .topbox .rg li:nth-child(3) a i{
+    background-image: url(../images/ll.png);
+    background-size: 100% 100%;
+}
+.top .topbox .rg li:nth-child(4) a i{
+    background-image: url(../images/dl.png);
+    background-size: 100% 100%;
+}
+
+
+.topnav{
+    background: #c50000;
+    line-height: 40px;
+}
+.topnav .nav ul li{
+    float: left;
+    font-size: 14px;
+}
+.topnav .nav ul li a{
+    color: #fff;
+    display: block;
+   text-align: center;
+   width: 133px;
+}
+.topnav .nav ul li a:hover{
+    background: #950505;
+}
+
+
+.bannerbox{
+    margin: 10px 0;
+}
+.bannerbox .banner{
+    height: 400px;
+}
+
+.bannerbox .banner .banlf{
+    width: 730px;
+    height: 400px;
+    background: #950505;
+}
+.bannerbox .banner .banlf a img{
+    display: block;
+    width: 730px;
+    height: 400px;
+}
+.bannerbox .banner .banlf .banneran{
+    position: absolute;
+    width: 730px;
+    height: 40px;
+    background: rgba(0, 0, 0, 0.473);
+    bottom: 0;
+}
+.bannerbox .banner .banlf .banneran span{
+    display: block;
+    float: right;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+}
+.bannerbox .banner .banlf .banneran span:hover{
+    background: black;
+}
+
+
+
+.bannerbox .banner .banrg{
+    width: 450px;
+    height: 400px;
+    
+}
+.bannerbox .banner .banrg .b1{
+    width: 450px;
+    height: 180px;
+    box-sizing: border-box;
+    border-top: 3px solid #950505;
+}
+.bannerbox .banner .banrg h2{
+    font-size: 14px;
+    background: #c50000;
+    color: #fff;
+    padding: 2px 0;
+    padding-left: 5px;
+}
+.bannerbox .banner .banrg table{
+    border-collapse: collapse;
+}
+.bannerbox .banner .banrg table tr td{
+    font-size: 12px;
+    padding-left: 5px;
+    width: 107px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border: 1px #950505 solid;
+}
+.bannerbox .banner .banrg table tr td:nth-child(1),.bannerbox .banner .banrg table tr td:nth-child(3){
+    background: #c50000;
+    color: #fff;
+    font-weight: bold;
+}
+.bannerbox .banner .banrg .b2{
+    border-top: 3px solid #950505;
+    box-sizing: border-box;
+    width: 450px;
+    height: 205px;
+    margin-top: 15px;
+}
+.bannerbox .banner .banrg .b2 .tj img{
+    width: 450px;
+    height: 180px;
+}
+
+
+.contbox .contlf{
+    width: 730px;
+    height: 400px;
+}
+.contbox .contlf .contlf1{
+    width: 360px;
+    height: 400px;
+    border: 1px #950505 solid;
+    box-sizing: border-box;
+}
+.contbox .contlf .contlf1 .contlf1top{
+    background: #c50000;
+}
+.contbox .contlf .contlf1 .contlf1top h3{
+    padding: 3px 5px 3px 10px;
+    font-size: 16px;
+    color: #fff;
+    background: #950505;
+}
+.contbox .contlf .contlf1 .contlf1top span{
+    color: #fff;
+    font-size: 12px;
+    margin-top: 8px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.contbox .contlf .contlf1 .contlf1top h3::after{
+    content: "";
+    display: block;
+    position: absolute;
+    border-left: #950505 14px solid;
+    border-top: #950505 13px solid;
+    border-right: #95050500 14px solid;
+    border-bottom: #95050500 14px solid;
+    right: -28px;
+    top: 0;
+}
+.contbox .contlf .contlf1 .contban a img{
+    width: 340px;
+    display: block;
+    margin: 0 auto;
+    height:170px;
+    margin-top: 10px;
+}
+.contbox .contlf .contlf1 .conttext{
+    text-indent: 2em;
+    font-size: 12px;
+    margin: 5px 10px;
+    line-height: 20px;
+    border-bottom: 1px solid #950505;
+    padding-bottom: 5px;
+}
+.contbox .contlf .contlf1 .conth{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin: 10px 30px;
+    font-weight: bold;
+    color: #950505;
+}
+.contbox .contlf .contlf1 ul li{
+    margin-top: 7px;
+}
+.contbox .contlf .contlf1 ul li a{
+    font-size: 12px;
+   display: block;
+   color: black;
+   width: 280px;
+   overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    float: left;
+}
+.contbox .contlf .contlf1 ul li a::before{
+    width: 7px;
+    height: 7px;
+    background: #950505;
+    content: "";
+    display: inline-block;
+    vertical-align: 2px;
+    margin-right: 5px ;
+    margin-left: 10px;
+}
+.contbox .contlf .contlf1 ul li span{
+    font-size: 12px;
+    color: #ccc;
+    margin-right: 10px;
+}
+
+.contbox .contrg{
+    width: 450px;
+    height: 400px;
+}
+.contbox .contrg .contrg1{
+    width: 450px;
+    height: 195px;
+    box-sizing: border-box;
+    border-top: 4px solid #950505;
+}
+.contbox .contrg h2{
+    font-size: 14px;
+    background: #c50000;
+    color: #fff;
+    padding: 2px 0;
+    padding-left: 5px;
+}
+.contbox .contrg .contrg1 .yuan img{
+    width: 450px;
+    height: 170px;
+}
+.contbox .contrg .contrg2{
+    margin-top: 10px;
+    width: 450px;
+    height: 195px;
+    border-top: 4px solid #950505;  
+}
+.contbox .contrg .contrg2 img{
+    width: 450px;
+    height: 170px;
+}
+
+.ggbox{
+    margin: 10px auto;
+}
+.ggbox .lf{
+    width: 730px;
+    height: 150px;
+    background-image: url(../images/gg.jpg);
+    background-position: center center;
+}
+.ggbox .rg{
+    width: 450px;
+}
+.ggbox .rg table{
+    border-collapse: collapse;
+    line-height: 29px;
+}
+.ggbox .rg tr th{
+    background: #c50000;
+    font-size: 12px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    width: 113px;
+    border: 1px solid #950505;
+}
+.ggbox .rg tr td{
+    width: 113px;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid #950505;
+    box-sizing: border-box;
+}
+
+.ggtd{
+    margin: 10px auto;
+}
+.ggtd .ggtdlf{
+    width: 730px;
+    height: 600px;
+
+    
+}
+.ggtd .ggtdlf .ggtdlf1{
+    width: 360px;
+    height: 400px;
+    border: 1px #950505 solid;
+    box-sizing: border-box;
+}
+.ggtd .ggtdlf .ggtdlf1 .ggtdlf1top{
+    background: #c50000;
+}
+.ggtd .ggtdlf .ggtdlf1 .ggtdlf1top h3{
+    padding: 3px 5px 3px 10px;
+    font-size: 16px;
+    color: #fff;
+    background: #950505;
+}
+.ggtd .ggtdlf .ggtdlf1 .ggtdlf1top span{
+    color: #fff;
+    font-size: 12px;
+    margin-top: 8px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.ggtd .ggtdlf .ggtdlf1 .ggtdlf1top h3::after{
+    content: "";
+    display: block;
+    position: absolute;
+    border-left: #950505 14px solid;
+    border-top: #950505 13px solid;
+    border-right: #95050500 14px solid;
+    border-bottom: #95050500 14px solid;
+    right: -28px;
+    top: 0;
+}
+.ggtd .ggtdlf .ggtdlf1 .ggtdlf1img img{
+    display: block;
+    width: 340px;
+    height: 150px;
+    margin: 10px auto;
+}
+.ggtd .ggtdlf .ggtdlf1 ul{
+    padding: 0 10px;
+}
+.ggtd .ggtdlf .ggtdlf1 ul li a{
+    line-height: 21px;
+    display: block;
+    font-size: 12px;
+    color: black;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.ggtd .ggtdlf .ggtdlf1 ul li a::before{
+    width: 7px;
+    height: 7px;
+    background: #c50000;
+    content: "";
+    display: inline-block;
+    vertical-align: 1px;
+    margin-right: 10px;
+}
+
+.ggtd .ggtdlf .lastnav{
+    margin-top: 10px;
+}
+.ggtd .ggtdlf .lastnav h2{
+    background: #c50000;
+    font-size: 16px;
+    color: #fff;
+    padding: 5px 0;
+    padding-left: 10px;
+}
+.ggtd .ggtdlf .lastnav ul{
+    border: 1px solid #950505;
+    padding-bottom:39px;
+    box-sizing: border-box;
+}
+.ggtd .ggtdlf .lastnav ul li{
+    float: left;
+    font-size: 12px;
+    margin-left: 10px;
+    margin-top: 10px;
+    line-height: 30px;
+}
+.ggtd .ggtdlf .lastnav ul li a{
+    color: black;
+}
+.ggtd .ggtdrg{
+    width: 450px;
+    height: 600px;
+}
+.ggtd .ggtdrg .ggtdrg1{
+    width: 450px;
+    height: 270px;
+    border-top: 4px solid #950505; 
+    box-sizing: border-box;
+}
+.ggtd .ggtdrg .ggtdrg1 div img{
+    width: 450px;
+    height:240px;
+}
+.ggtd .ggtdrg .ggtdrg2{
+    box-sizing: border-box;
+    border-top: 4px solid #950505;  
+    width: 450px;
+    height: 320px;
+    margin-top: 14px;
+}
+.ggtd .ggtdrg h2{
+    font-size: 14px;
+    background: #c50000;
+    color: #fff;
+    padding: 2px 0;
+    padding-left: 5px;
+}
+
+.ggtd .ggtdrg .ggtdrg2 table{
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 12px;
+    background: #fff;
+}
+.ggtd .ggtdrg .ggtdrg2 table tr td{
+    width: 50px;
+    height: 31px;
+    padding:0 10px;
+    border: 1px solid #950505;
+}
+
+footer{
+    background: #c50000;
+    height: 100px;
+    margin-top:120px;
+}
+footer div{
+    text-align: center;
+    color: #fff;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+footer div p{
+    margin-top: 10px;
+    font-size: 12px;
+}
+footer span{
+    display: block;
+    height: 80px;
+    position: absolute;
+    top: -80px;
+    width: 100%;
+    z-index: -3;
+    background:linear-gradient(rgba(255, 0, 0, 0),rgb(197,0,0));
+}
